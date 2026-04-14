@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-and-test:
-    if: ${{ github.repository == 'jgarciach/tsakonian_digital_vault' }}
+    if: ${{ github.repository == 'jgchaparro/tsakonian_digital_vault' }}
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]

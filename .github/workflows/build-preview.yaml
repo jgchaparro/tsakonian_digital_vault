@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-preview:
-    if: ${{ github.repository == 'jgarciach/tsakonian_digital_vault' }}
+    if: ${{ github.repository == 'jgchaparro/tsakonian_digital_vault' }}
     runs-on: ubuntu-latest
     name: Build Preview
     steps:
