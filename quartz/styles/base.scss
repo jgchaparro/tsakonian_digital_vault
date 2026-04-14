@@ -519,6 +519,8 @@ p {
 
 .table-container {
   overflow-x: auto;
+  display: flex;
+  justify-content: center;
 
   & > table {
     margin: 1rem;
