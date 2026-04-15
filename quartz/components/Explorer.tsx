@@ -8,6 +8,7 @@ import { i18n } from "../i18n"
 import { FileTrieNode } from "../util/fileTrie"
 import OverflowListFactory from "./OverflowList"
 import { concatenateResources } from "../util/resources"
+import SearchFactory from "./Search"
 
 type OrderEntries = "sort" | "filter" | "map"
 
@@ -59,8 +60,10 @@ let numExplorers = 0
 export default ((userOpts?: Partial<Options>) => {
   const opts: Options = { ...defaultOptions, ...userOpts }
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
+  const Search = SearchFactory()
 
-  const Explorer: QuartzComponent = ({ cfg, displayClass }: QuartzComponentProps) => {
+  const Explorer: QuartzComponent = (props: QuartzComponentProps) => {
+    const { cfg, displayClass } = props
     const id = `explorer-${numExplorers++}`
 
     return (
@@ -76,27 +79,29 @@ export default ((userOpts?: Partial<Options>) => {
           mapFn: opts.mapFn.toString(),
         })}
       >
-        <button
-          type="button"
-          class="explorer-toggle mobile-explorer hide-until-loaded"
-          data-mobile={true}
-          aria-controls={id}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide-menu"
+        <div class="line-container">
+          <button
+            type="button"
+            class="explorer-toggle mobile-explorer hide-until-loaded"
+            data-mobile={true}
+            aria-controls={id}
           >
-            <line x1="4" x2="20" y1="12" y2="12" />
-            <line x1="4" x2="20" y1="6" y2="6" />
-            <line x1="4" x2="20" y1="18" y2="18" />
-          </svg>
-        </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide-menu"
+            >
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </button>
+        </div>
         <button
           type="button"
           class="title-button explorer-toggle desktop-explorer"
@@ -120,6 +125,9 @@ export default ((userOpts?: Partial<Options>) => {
           </svg>
         </button>
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
+          <div class="mobile-only">
+            <Search {...props} />
+          </div>
           <OverflowList class="explorer-ul" />
         </div>
         <template id="template-file">
@@ -159,7 +167,11 @@ export default ((userOpts?: Partial<Options>) => {
     )
   }
 
-  Explorer.css = style
-  Explorer.afterDOMLoaded = concatenateResources(script, overflowListAfterDOMLoaded)
+  Explorer.css = style + (Search.css ?? "")
+  Explorer.afterDOMLoaded = concatenateResources(
+    script,
+    overflowListAfterDOMLoaded,
+    Search.afterDOMLoaded,
+  )
   return Explorer
 }) satisfies QuartzComponentConstructor

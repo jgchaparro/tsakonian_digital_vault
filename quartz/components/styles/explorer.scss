@@ -240,6 +240,34 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       }
     }
 
+    .line-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 7rem;
+      z-index: 101;
+      display: flex;
+      align-items: center;
+      padding-left: 1rem;
+      pointer-events: none;
+    }
+
+    &:not(.collapsed) .line-container {
+      background-color: var(--light);
+    }
+
+    .mobile-explorer {
+      margin: 0;
+      padding: 5px;
+      z-index: 101;
+      pointer-events: all;
+
+      .lucide-menu {
+        stroke: var(--darkgray);
+      }
+    }
+
     .explorer-content {
       box-sizing: border-box;
       z-index: 100;
@@ -255,19 +283,27 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
         transform 200ms ease,
         visibility 200ms ease;
       overflow: hidden;
-      padding: 4rem 0 2rem 0;
+      padding: 7rem 1.5rem 2rem 1.5rem;
       height: 100dvh;
       max-height: 100dvh;
       visibility: hidden;
-    }
 
-    .mobile-explorer {
-      margin: 0;
-      padding: 5px;
-      z-index: 101;
+      .search {
+        margin-bottom: 1rem;
+        display: flex;
+        width: 100%;
 
-      .lucide-menu {
-        stroke: var(--darkgray);
+        .search-button {
+          width: 100%;
+          border: 1px solid var(--lightgray);
+          padding: 0 0.8rem;
+          border-radius: 5px;
+          height: 2.5rem;
+
+          p {
+            margin-left: 0.5rem;
+          }
+        }
       }
     }
   }

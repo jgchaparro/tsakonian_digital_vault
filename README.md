@@ -15,3 +15,11 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+# Server quickstart
+
+To start a local server for your vault, run the following command in your terminal:
+
+```bash
+npx quartz build --serve --directory tsakonian_vault
+```
