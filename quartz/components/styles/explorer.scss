@@ -240,28 +240,10 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       }
     }
 
-    .line-container {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 7rem;
-      z-index: 101;
-      display: flex;
-      align-items: center;
-      padding-left: 1rem;
-      pointer-events: none;
-    }
-
-    &:not(.collapsed) .line-container {
-      background-color: var(--light);
-    }
-
     .mobile-explorer {
       margin: 0;
       padding: 5px;
       z-index: 101;
-      pointer-events: all;
 
       .lucide-menu {
         stroke: var(--darkgray);
@@ -283,7 +265,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
         transform 200ms ease,
         visibility 200ms ease;
       overflow: hidden;
-      padding: 7rem 1.5rem 2rem 1.5rem;
+      padding: 4rem 1.5rem 2rem 1.5rem;
       height: 100dvh;
       max-height: 100dvh;
       visibility: hidden;
