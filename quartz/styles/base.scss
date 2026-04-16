@@ -520,7 +520,7 @@ p {
 .table-container {
   overflow-x: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 
   & > table {
     margin: 1rem;
