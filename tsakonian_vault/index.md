@@ -27,3 +27,5 @@ You can navigate through the different sections using the explorer on the left:
 - **Grammar**: Detailed breakdown of the linguistic structure.
 - **Lexicon**: A growing dictionary of Tsakonian words and expressions.
 - **Resources**: A collection of external links, books, and media.
+
+> **A note on transliteration:** Tsakonian words throughout this vault are given in Latin-script transliteration in italics following García Chaparro's system (2026). See [[3.2 Transliteration]] for the complete character mapping.
