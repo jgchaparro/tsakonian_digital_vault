@@ -36,11 +36,11 @@ You can navigate through the different sections using the explorer on the left:
 
 <div data-lc="es">
 
-Bienvenido al **Tsakonian Digital Vault**, un repositorio digital dedicado a la preservación, el estudio y la difusión de la **lengua tsakonia** (*Tσακώνικα*).
+Bienvenido a la **Bóveda Digital Tsakonia**, un repositorio digital dedicado a la preservación, el estudio y la difusión de la **lengua tsakonia** (*Tσακώνικα*).
 
-## ¿Qué es el Tsakonian Digital Vault?
+## ¿Qué es la Bóveda Digital Tsakonia?
 
-El Tsakonian Digital Vault es una plataforma de acceso abierto diseñada para reunir datos lingüísticos, recursos culturales y materiales educativos sobre una de las lenguas más singulares y en peligro del mundo helénico.
+La **Bóveda Digital Tsakonia** es una plataforma de acceso abierto diseñada para reunir datos lingüísticos, recursos culturales y materiales educativos sobre una de las lenguas más singulares y en peligro del mundo helénico.
 
 El tsakonio es el único descendiente vivo del antiguo **dialecto dórico**, concretamente de la variedad laconia hablada en la antigua Esparta. Aislado durante siglos en las montañas del Parnón, en el Peloponeso, ha conservado rasgos que han desaparecido de todas las demás formas del griego moderno.
 
@@ -67,11 +67,11 @@ Puedes navegar por las distintas secciones mediante el explorador de la izquierd
 
 <div data-lc="el">
 
-Καλώς ήρθατε στο **Tsakonian Digital Vault**, ένα ψηφιακό αποθετήριο αφιερωμένο στη διατήρηση, τη μελέτη και την προβολή της **τσακωνικής γλώσσας** (*Tσακώνικα*).
+Καλώς ήρθατε στον **Τσακώνικο Ψηφιακό Θησαυρό**, ένα ψηφιακό αποθετήριο αφιερωμένο στη διατήρηση, τη μελέτη και την προβολή της **τσακωνικής γλώσσας** (*Tσακώνικα*).
 
-## Τι είναι το Tsakonian Digital Vault;
+## Τι είναι ο Τσακώνικος Ψηφιακός Θησαυρός;
 
-Το Tsakonian Digital Vault είναι μια πλατφόρμα ελεύθερης πρόσβασης που φιλοδοξεί να συγκεντρώσει γλωσσολογικά δεδομένα, πολιτιστικούς πόρους και εκπαιδευτικό υλικό για μία από τις πιο μοναδικές και κινδυνεύουσες γλώσσες του ελληνικού κόσμου.
+Ο **Τσακώνικος Ψηφιακός Θησαυρός** είναι μια πλατφόρμα ελεύθερης πρόσβασης που φιλοδοξεί να συγκεντρώσει γλωσσολογικά δεδομένα, πολιτιστικούς πόρους και εκπαιδευτικό υλικό για μία από τις πιο μοναδικές και κινδυνεύουσες γλώσσες του ελληνικού κόσμου.
 
 Η τσακωνική είναι ο μοναδικός ζωντανός απόγονος της αρχαίας **δωρικής διαλέκτου**, και συγκεκριμένα της λακωνικής ποικιλίας που μιλούνταν στην αρχαία Σπάρτη. Απομονωμένη για αιώνες στα βουνά του Πάρνωνα στην Πελοπόννησο, έχει διατηρήσει χαρακτηριστικά που έχουν εξαφανιστεί από όλες τις άλλες μορφές της νέας ελληνικής.
 
