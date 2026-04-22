@@ -1,0 +1,30 @@
+[data-lc] { display: none; }
+html[data-lang="en"] [data-lc="en"],
+html[data-lang="es"] [data-lc="es"],
+html[data-lang="el"] [data-lc="el"] { display: block; }
+
+.language-toggle {
+  cursor: pointer;
+  padding: 0 2px;
+  background: none;
+  border: none;
+  height: 32px;
+  margin: 0;
+  text-align: inherit;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+
+  .lang-indicator {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--darkgray);
+    letter-spacing: 0.06em;
+    line-height: 1;
+    font-family: var(--codeFont);
+  }
+
+  &:hover .lang-indicator {
+    color: var(--dark);
+  }
+}
