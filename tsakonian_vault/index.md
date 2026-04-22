@@ -61,7 +61,7 @@ Puedes navegar por las distintas secciones mediante el explorador de la izquierd
 - **Léxico**: Un diccionario en crecimiento de palabras y expresiones tsakonias.
 - **Recursos**: Una colección de enlaces externos, libros y materiales audiovisuales.
 
-> **Nota sobre la transliteración:** Las palabras tsakonias a lo largo de este vault se presentan en transliteración al alfabeto latino en cursiva, siguiendo el sistema de García Chaparro (2026). Véase [[3.2 Transliteration]] para el mapeo completo de caracteres.
+> **Nota sobre la transliteración:** Las palabras tsakonias a lo largo de este Vault se presentan en transliteración al alfabeto latino en cursiva, siguiendo el sistema de García Chaparro (2026). Véase [[3.2 Transliteración]] para el mapeo completo de caracteres.
 
 </div>
 
@@ -92,6 +92,6 @@ Puedes navegar por las distintas secciones mediante el explorador de la izquierd
 - **Λεξικό**: Ένα συνεχώς διευρυνόμενο λεξικό τσακωνικών λέξεων και εκφράσεων.
 - **Πόροι**: Συλλογή εξωτερικών συνδέσμων, βιβλίων και οπτικοακουστικού υλικού.
 
-> **Σημείωση για τη μεταγραφή:** Οι τσακωνικές λέξεις σε αυτό το vault δίνονται σε μεταγραφή λατινικού αλφαβήτου με πλάγια γράμματα, σύμφωνα με το σύστημα του García Chaparro (2026). Βλ. [[3.2 Transliteration]] για τον πλήρη πίνακα χαρακτήρων.
+> **Σημείωση για τη μεταγραφή:** Οι τσακωνικές λέξεις σε αυτό το vault δίνονται σε μεταγραφή λατινικού αλφαβήτου με πλάγια γράμματα, σύμφωνα με το σύστημα του García Chaparro (2026). Βλ. [[3.2 Μεταγραφή]] για τον πλήρη πίνακα χαρακτήρων.
 
 </div>
