@@ -51,7 +51,7 @@ El tsakonio es el único descendiente vivo del antiguo **dialecto dórico**, con
 3. **Accesibilidad**: Poner la investigación académica y las fuentes primarias al alcance de un público más amplio.
 4. **Comunidad**: Crear un espacio para la comunidad de hablantes de tsakonio y los entusiastas de su patrimonio lingüístico.
 
-## Cómo usar este Vault
+## Cómo usar esta bóveda
 
 Puedes navegar por las distintas secciones mediante el explorador de la izquierda:
 - **Introducción**: Panorama general de la lengua y su historia.
@@ -61,7 +61,7 @@ Puedes navegar por las distintas secciones mediante el explorador de la izquierd
 - **Léxico**: Un diccionario en crecimiento de palabras y expresiones tsakonias.
 - **Recursos**: Una colección de enlaces externos, libros y materiales audiovisuales.
 
-> **Nota sobre la transliteración:** Las palabras tsakonias a lo largo de este Vault se presentan en transliteración al alfabeto latino en cursiva, siguiendo el sistema de García Chaparro (2026). Véase [[3.2 Transliteración]] para el mapeo completo de caracteres.
+> **Nota sobre la transliteración:** Las palabras tsakonias a lo largo de esta bóveda se presentan en transliteración al alfabeto latino en cursiva, siguiendo el sistema de García Chaparro (2026). Véase [[3.2 Transliteración]] para el mapeo completo de caracteres.
 
 </div>
 
