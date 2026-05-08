@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Move-Item \"English/7. Dictionary.md\" \"English/8. Dictionary.md\")",
+      "Bash(Move-Item \"Español/7. Diccionario.md\" \"Español/8. Diccionario.md\")",
+      "Bash(Move-Item \"Ελληνικά/7. Λεξικό.md\" \"Ελληνικά/8. Λεξικό.md\")",
+      "WebFetch(domain:www.tsakoniandigital.com)",
+      "WebSearch",
+      "WebFetch(domain:tsakoniandigital.com)",
+      "Bash(curl -s \"https://tsakoniandigital.com\")",
+      "Bash(curl -s \"https://tsakoniandigital.com/static/js/app.js\")",
+      "Bash(python3 -c 'import urllib.parse; print\\(urllib.parse.quote\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\)')",
+      "Bash(curl -s 'https://tsakoniandigital.com/api/search/greek?q=__CMDSUB_OUTPUT__&lang=el&ortho=kostakis')",
+      "Bash(curl -s --get --data-urlencode \"q=άσπρος\" \"https://tsakoniandigital.com/api/search/greek\" --data-urlencode \"lang=el\" --data-urlencode \"ortho=kostakis\")",
+      "Bash(curl -s --get --data-urlencode \"q=μαύρος\" \"https://tsakoniandigital.com/api/search/greek\" --data-urlencode \"lang=el\" --data-urlencode \"ortho=kostakis\")",
+      "Bash(curl -s --get --data-urlencode \"q=κόκκινος\" \"https://tsakoniandigital.com/api/search/greek\" --data-urlencode \"lang=el\" --data-urlencode \"ortho=kostakis\")",
+      "Bash(curl -s --get --data-urlencode \"q=μπλε\" \"https://tsakoniandigital.com/api/search/greek\" --data-urlencode \"lang=el\" --data-urlencode \"ortho=kostakis\")",
+      "Bash(curl -s --get --data-urlencode \"q=πράσινος\" \"https://tsakoniandigital.com/api/search/greek\" --data-urlencode \"lang=el\" --data-urlencode \"ortho=kostakis\")",
+      "Bash(curl -s --get --data-urlencode \"q=κίτρινος\" \"https://tsakoniandigital.com/api/search/greek\" --data-urlencode \"lang=el\" --data-urlencode \"ortho=kostakis\")"
+    ]
+  }
+}
