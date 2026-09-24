@@ -97,6 +97,7 @@ Process files in `Pending/` one at a time:
   - Journal articles and book chapters use the journal/book pagination (e.g. an article printed on pp. 177–188 starts at p. 177, not p. 1).
 - **Page markers:** paginated archive texts contain markers `------- Page {printed} (PDF {n}) -----------`. Cite the `Page` value. Unnumbered pages are marked `------- Page – (PDF {n}) -----------` and shouldn't be cited by page.
 - **Page offset:** for each source, `Master sources.md` records the offset between PDF and printed pages: `printed page = PDF page − offset`. Find it by checking the printed number on a few pages (start, middle, end). If numbering restarts or has gaps, note it in the Summary column.
+- **No printed page numbers:** if a paginated document (e.g. a PDF) prints no page numbers and has no cover or front matter, use the file's page index as the page number (offset 0).
 - **Exception:** omit the page only for sources that genuinely have no pagination, such as web articles.
 - **Sources page:** every citation key (Author, Year) must appear in the `8. Sources` page of each language, in a table with columns _Author, Year, Publication name_.
 - **Special author rule:** the author of all _Tsakonian Digital_ articles is Jaime García Chaparro. Cite them as `(García Chaparro, {year})`.
