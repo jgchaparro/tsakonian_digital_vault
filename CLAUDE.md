@@ -6,7 +6,7 @@ Repository containing Tsakonian linguistic reference materials, published as a s
 ## Architecture
 * `tsakonian_vault/` — the actual content (Quartz "vault"), one folder per language: `English/`, `Español/`, `Ελληνικά/`
 * `tsakonian_vault/0. Sources/` — source intake and archive (see "Sources" below)
-* `tsakonian_vault/Utils/` — helper scripts (`process_ocr.py`)
+* `tsakonian_vault/Utils/OCR Processing/intermediate_results/` — per-page OCR files (page PDF, image, `.md`) of each processed PDF (gitignored)
 * `quartz/` — Quartz engine (plugins, build/serve pipeline) — vendored, not project content
 * `quartz.config.ts` — site config (title, plugins, layout)
 * `quartz.layout.ts` — page layout definitions
@@ -47,7 +47,7 @@ The vault is organized into files (specific pieces of information) and directori
 Intake and tracking hub for all external materials:
 
 - **`Master sources.md`**: table of all processed sources. Columns: _Title, Author, Date, Summary, Link, Page offset_. Use "N/A" for missing data. Page offset is explained in Section 5.
-- **`Requiring OCR/`**: scanned PDFs without a text layer. `tsakonian_vault/Utils/process_ocr.py` OCRs them one page at a time with the Gemini CLI, writes the Markdown to `Pending/`, and moves the PDF to `Archive/`.
+- **`Requiring OCR/`**: scanned PDFs without a text layer. Process them in order with the `tsakonian-pdf-ocr-claude` skill: it OCRs them page by page (up to 3 parallel subagents), writes `Pending/<pdf name>.md` with page markers, and moves the PDF to `Archive/` with the same name.
 - **`Pending/`**: raw files waiting to be processed.
 - **`Archive/`**: processed sources. Each source has a `.md` file (and its PDF, if any).
   - **Every `Archive/*.md` must be the complete text of the source, never a summary.** This applies to all sources (PDFs, web articles, etc.).
