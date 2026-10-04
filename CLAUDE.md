@@ -101,3 +101,7 @@ Process files in `Pending/` one at a time:
 - **Exception:** omit the page only for sources that genuinely have no pagination, such as web articles.
 - **Sources page:** every citation key (Author, Year) must appear in the `8. Sources` page of each language, in a table with columns _Author, Year, Publication name_.
 - **Special author rule:** the author of all _Tsakonian Digital_ articles is Jaime García Chaparro. Cite them as `(García Chaparro, {year})`.
+
+## Where instructions live
+- **This file** holds general context needed in most tasks: what the repo is, its structure, its key assets and the knowledge base rules. Keep it short. Add general context or structure here.
+- **Skills** hold the specialized, step-by-step procedures. Load the skill before doing its task; do not work from memory. Store and expand information about the procedure the skill covers directly within it and its subdirectories.
